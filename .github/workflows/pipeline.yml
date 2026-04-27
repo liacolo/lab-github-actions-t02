@@ -8,8 +8,8 @@ on:
   workflow_dispatch: # permite ejecutar desde la UI de GitHub
 
 jobs:
-  build:
-    name: build-and-push
+  build-and-push:
+    name: Build & Push Docker Image 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout código
